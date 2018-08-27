@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/module1"
+                android:layout_width="400dp"
+                android:layout_height="100dp"
+                android:background="@drawable/blue_rounded_button"
+                android:layout_marginBottom="20dp"
+                android:text="@string/module1"
+                android:textSize="28sp"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/module2"
+                android:layout_width="400dp"
+                android:layout_height="100dp"
+                android:background="@drawable/blue_rounded_button"
+                android:layout_marginBottom="20dp"
+                android:text="@string/module2"
+                android:textSize="28sp"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/module3"
+                android:layout_width="400dp"
+                android:layout_height="100dp"
+                android:background="@drawable/blue_rounded_button"
+                android:layout_marginBottom="20dp"
+                android:text="@string/module3"
+                android:textSize="28sp"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/module4"
+                android:layout_width="400dp"
+                android:layout_height="100dp"
+                android:background="@drawable/blue_rounded_button"
+                android:layout_marginBottom="20dp"
+                android:text="@string/module4"
+                android:textSize="28sp"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/module5"
+                android:layout_width="400dp"
+                android:layout_height="100dp"
+                android:background="@drawable/blue_rounded_button"
+                android:layout_marginBottom="20dp"
+                android:text="@string/module5"
+                android:textSize="28sp"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/module6"
+                android:layout_width="400dp"
+                android:layout_height="100dp"
+                android:background="@drawable/blue_rounded_button"
+                android:layout_marginBottom="20dp"
+                android:text="@string/module6"
+                android:textSize="28sp"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</merge>

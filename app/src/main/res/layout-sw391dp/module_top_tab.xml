@@ -1,0 +1,26 @@
+<merge xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/linLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/timetable_background"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Modules"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            app:fontFamily="@font/comfortaa_light"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="20dp"/>
+
+
+    </LinearLayout>
+
+</merge>

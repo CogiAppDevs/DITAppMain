@@ -1,0 +1,60 @@
+<merge xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:background="@drawable/white_rounded_button">
+
+
+        <TextView
+            android:id="@+id/tvModule"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/module"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:fontFamily="@font/comfortaa_light"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvProfessor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/professor"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:fontFamily="@font/comfortaa_light"
+            app:layout_constraintStart_toEndOf="@+id/ivProfessor"
+            app:layout_constraintTop_toBottomOf="@+id/tvModule" />
+
+        <Button
+            android:id="@+id/buttonContact"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/gold_rounded_button"
+            android:text="Contact"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.454" />
+
+        <ImageView
+            android:id="@+id/ivProfessor"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvModule"
+            app:srcCompat="@drawable/ic_lecturer" />
+    </android.support.constraint.ConstraintLayout>
+
+</merge>

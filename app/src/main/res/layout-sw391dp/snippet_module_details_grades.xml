@@ -1,0 +1,61 @@
+<merge xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="250dp"
+        android:layout_height="380dp"
+        android:background="@drawable/blue_rounded_button">
+
+
+        <ImageView
+            android:id="@+id/ivGrades"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_grades" />
+
+        <TextView
+            android:id="@+id/tvGrades"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/grades"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:fontFamily="@font/comfortaa_bold"
+            app:layout_constraintStart_toEndOf="@+id/ivGrades"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Exam 1 :"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:fontFamily="@font/comfortaa_bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvGrades" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:text="391dp"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:fontFamily="@font/comfortaa_bold"
+            app:layout_constraintStart_toEndOf="@+id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/tvGrades" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</merge>

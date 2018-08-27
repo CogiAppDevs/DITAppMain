@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">CollegeAppTest5</string>
+
+    <string name="assignments">Assignments</string>
+    <string name="modules">Modules</string>
+    <string name="timetable">Timetable</string>
+
+    //------------ Module Details Strings ----------//
+    <string name="grades">Grades</string>
+    <string name="room">Room :</string>
+    <string name="professor">Professor</string>
+    <string name="module">Module</string>
+
+    //------------ Timetable Strings ----------//
+    <string name="time">Time</string>
+    <string name="timetableModule">Module</string>
+    <string name="timetableRoom">Room</string>
+    <string name="date">Today</string>
+
+    //------------ Module Strings ----------//
+    <string name="module1">Module 1</string>
+    <string name="module2">Module 2</string>
+    <string name="module3">Module 3</string>
+    <string name="module4">Module 4</string>
+    <string name="module5">Module 5</string>
+    <string name="module6">Module 6</string>
+
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+</resources>
