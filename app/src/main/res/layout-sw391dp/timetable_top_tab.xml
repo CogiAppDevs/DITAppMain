@@ -9,33 +9,37 @@
         android:background="@color/timetable_background"
         android:orientation="horizontal">
 
-        <ImageView
+        <TextView
             android:id="@+id/previous_day"
             android:layout_width="30dp"
             android:layout_height="40dp"
             android:layout_gravity="bottom"
             android:layout_weight="1"
-            android:src="@drawable/yesterday_back_arrow" />
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:fontFamily="@font/comfortaa_light" />
 
         <TextView
+            android:id="@+id/timetableDay"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             android:layout_marginTop="4dp"
             android:layout_weight="3"
             android:gravity="center"
-            android:text="@string/date"
             android:textColor="@color/white"
             android:textSize="25sp"
             app:fontFamily="@font/comfortaa_light" />
 
-        <ImageView
+        <TextView
             android:id="@+id/next_day"
             android:layout_width="30dp"
             android:layout_height="40dp"
             android:layout_gravity="bottom"
             android:layout_weight="1"
-            android:src="@drawable/tomorrow_back_arrow" />
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:fontFamily="@font/comfortaa_light" />
 
     </LinearLayout>
 

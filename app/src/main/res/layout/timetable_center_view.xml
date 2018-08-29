@@ -24,6 +24,7 @@
             android:showDividers="middle">
 
             <RelativeLayout
+                android:id="@+id/timetablesection"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
