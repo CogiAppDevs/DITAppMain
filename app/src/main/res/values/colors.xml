@@ -12,4 +12,9 @@
     <color name="red">#E53935</color>
     <color name="timetable_background">#2196F3</color>
     <color name="assigmment_module_bg">#F4ECE9</color>
+
+    //Layers color
+    <color name="Cerulean">#00B4DB</color>
+    <color name="PictonBlue">#56CCF2</color>
+    <color name="ChetwodeBlue">#7F7FD5</color>
 </resources>
