@@ -24,4 +24,9 @@
         <item name="android:textSize">10sp</item>
     </style>
 
+    <style name="MyEditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="colorControlActivated">#c471ed</item>
+        <item name="colorControlNormal">#91EAE4</item>
+    </style>
+
 </resources>

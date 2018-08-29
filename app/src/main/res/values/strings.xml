@@ -35,4 +35,14 @@
         <item>Uranus</item>
         <item>Neptune</item>
     </string-array>
+
+    //------ Login Strings -------//
+    <string name="username">Username</string>
+    <string name="logo">Logo</string>
+    <string name="person_icon">person</string>
+    <string name="lock_icon">lock</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="login_button">loginButton</string>
+    <string name="splashscreen">splashscreen</string>
 </resources>

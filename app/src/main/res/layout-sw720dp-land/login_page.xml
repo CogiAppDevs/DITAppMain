@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:id="@+id/login">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="712dp"
+        android:layout_height="322dp"
+        android:layout_marginLeft="316dp"
+        android:layout_marginStart="316dp"
+        android:background="@drawable/dit"
+        android:contentDescription="@string/logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/username"
+        android:inputType="textWebEditText"
+        android:layout_width="569dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="472dp"
+        android:layout_marginStart="472dp"
+        android:layout_marginTop="360dp"
+        android:paddingEnd="10dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="10dp"
+        android:paddingStart="50dp"
+        android:hint="@string/username"
+        android:textColorHint="#FFF"
+        android:textSize="50sp"
+        android:textColor="@color/white"
+        android:theme="@style/MyEditTextStyle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/person"
+        android:layout_width="63dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="344dp"
+        android:layout_marginStart="344dp"
+        android:layout_marginTop="372dp"
+        android:contentDescription="@string/person_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/person" />
+
+    <EditText
+        android:id="@+id/password"
+        android:inputType="textWebPassword"
+        android:layout_width="581dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="464dp"
+        android:layout_marginStart="464dp"
+        android:layout_marginTop="20dp"
+        android:paddingEnd="10dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="10dp"
+        android:paddingStart="50dp"
+        android:hint="@string/password"
+        android:textColorHint="#FFF"
+        android:textSize="50sp"
+        android:textColor="@color/white"
+        android:theme="@style/MyEditTextStyle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/username" />
+
+    <ImageView
+        android:id="@+id/lock"
+        android:layout_width="63dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="344dp"
+        android:layout_marginStart="344dp"
+        android:layout_marginTop="504dp"
+        android:contentDescription="@string/lock_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/lock" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="703dp"
+        android:layout_height="92dp"
+        android:layout_marginLeft="344dp"
+        android:layout_marginStart="344dp"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/circle"
+        android:contentDescription="@string/login_button"
+        android:textColor="#fff"
+        android:textSize="50sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="@string/login" />
+
+
+</android.support.constraint.ConstraintLayout>
