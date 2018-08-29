@@ -20,15 +20,11 @@ import android.widget.Toast;
 import android.widget.ViewFlipper;
 import android.widget.ViewSwitcher;
 
-import com.aurelhubert.ahbottomnavigation.AHBottomNavigation;
-import com.aurelhubert.ahbottomnavigation.AHBottomNavigationItem;
 
 import java.util.Calendar;
 import java.util.TimeZone;
 
-import github.chenupt.springindicator.SpringIndicator;
 import instaclone.mahmoud.com.collegeapptest5.Utils.SectionsPagerAdapter;
-import me.relex.circleindicator.CircleIndicator;
 
 public class TimetableFragment extends Fragment {
 
