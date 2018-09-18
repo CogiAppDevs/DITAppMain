@@ -16,14 +16,6 @@ xmlns:app="http://schemas.android.com/apk/res-auto">
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <Spinner
-                android:id="@+id/modules_spinner"
-                style="@style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar"
-                android:layout_width="200dp"
-                android:layout_height="60dp"
-                android:layout_alignParentTop="true"
-                android:entries="@array/planets_array" />
-
         </RelativeLayout>
 
 

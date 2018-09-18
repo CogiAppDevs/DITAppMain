@@ -1,10 +1,6 @@
 <resources>
     <string name="app_name">CollegeAppTest5</string>
 
-    <string name="assignments">Assignments</string>
-    <string name="modules">Modules</string>
-    <string name="timetable">Timetable</string>
-
     //------------ Module Details Strings ----------//
     <string name="grades">Grades</string>
     <string name="room">Room :</string>
@@ -12,29 +8,38 @@
     <string name="module">Module</string>
 
     //------------ Timetable Strings ----------//
-    <string name="time">Time</string>
+
     <string name="timetableModule">Module</string>
     <string name="timetableRoom">Room</string>
     <string name="date">Today</string>
 
     //------------ Module Strings ----------//
-    <string name="module1">Module 1</string>
-    <string name="module2">Module 2</string>
-    <string name="module3">Module 3</string>
-    <string name="module4">Module 4</string>
-    <string name="module5">Module 5</string>
-    <string name="module6">Module 6</string>
+    <string name="module1">module1</string>
+    <string name="module2">module2</string>
+    <string name="module3">module3</string>
+    <string name="module4">module4</string>
+    <string name="module5">module5</string>
+    <string name="module6">module6</string>
 
-    <string-array name="planets_array">
-        <item>Mercury</item>
-        <item>Venus</item>
-        <item>Earth</item>
-        <item>Mars</item>
-        <item>Jupiter</item>
-        <item>Saturn</item>
-        <item>Uranus</item>
-        <item>Neptune</item>
-    </string-array>
+    //------ Database Strings ------//
+    <string name="monday">monday</string>
+    <string name="tuesday">tuesday</string>
+    <string name="wednesday">wednesday</string>
+    <string name="thursday">thursday</string>
+    <string name="friday">friday</string>
+    <string name="ModuleTime">time</string>
+    <string name="ModuleName">module_name</string>
+    <string name="ModuleRoom">room</string>
+    <string name="assignments">assignments</string>
+    <string name="modules">modules</string>
+    <string name="timetable">timetable</string>
+
+    //------ SharedPreferences Strings ------//
+    <string name="sharedPrefMonday">TimetabeleValuesMonday</string>
+    <string name="sharedPrefTuesday">TimetabeleValuesTuesday</string>
+    <string name="sharedPrefWednesday">TimetabeleValuesWednesday</string>
+    <string name="sharedPrefThursday">TimetabeleValuesThursday</string>
+    <string name="sharedPrefFriday">TimetabeleValuesFriday</string>
 
     //------ Login Strings -------//
     <string name="username">Username</string>
