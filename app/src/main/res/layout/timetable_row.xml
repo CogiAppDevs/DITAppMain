@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rlRow"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_rounded_button">
+
+    <RelativeLayout
+        android:id="@+id/timetableSlotIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:id="@+id/timetable_row_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="M"
+            android:textColor="@color/white"
+            android:textSize="50sp"
+            app:fontFamily="@font/comfortaa_bold" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/module_info_linLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:duplicateParentState="true"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_toRightOf="@+id/timetableSlotIcon">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/module_name_TV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:duplicateParentState="true"
+                android:maxLines="1"
+                android:text="Module"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:fontFamily="@font/comfortaa_light" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/time_icon_IV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_time_white"/>
+
+            <TextView
+                android:id="@+id/module_time_TV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:maxLines="1"
+                android:text="Time"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:fontFamily="@font/comfortaa_light" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/room_icon_IV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_room"/>
+
+            <TextView
+                android:id="@+id/module_room_TV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:maxLines="1"
+                android:text="Room"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:fontFamily="@font/comfortaa_light" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="12sp" />
+
+
+</RelativeLayout>
