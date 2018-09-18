@@ -35,6 +35,7 @@
     <string name="timetable">timetable</string>
 
     //------ SharedPreferences Strings ------//
+    <string name="sharedPrefModules">ModulesValues</string>
     <string name="sharedPrefMonday">TimetabeleValuesMonday</string>
     <string name="sharedPrefTuesday">TimetabeleValuesTuesday</string>
     <string name="sharedPrefWednesday">TimetabeleValuesWednesday</string>
