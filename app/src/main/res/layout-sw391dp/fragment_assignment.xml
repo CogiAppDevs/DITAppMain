@@ -10,7 +10,7 @@
     tools:context=".MainActivity">
 
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
@@ -20,19 +20,26 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
+            <Spinner
+                android:id="@+id/assignmentSpinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </Spinner>
+
         </RelativeLayout>
 
-
-        <RelativeLayout
-            android:id="@+id/relLayout2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
             android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="121dp">
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:divider="@color/grey">
 
-        </RelativeLayout>
+        </ListView>
 
-    </RelativeLayout>
+    </LinearLayout>
 
 </android.support.design.widget.CoordinatorLayout>

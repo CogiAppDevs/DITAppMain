@@ -114,10 +114,7 @@ public class MondayFragment extends Fragment {
             super(context, 0, users);
         }
 
-
-
         @Override
-
         public View getView(int position, View convertView, ViewGroup parent) {
 
             AssignmentListObject user = getItem(position);

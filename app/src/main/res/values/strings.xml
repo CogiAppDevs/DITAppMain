@@ -50,4 +50,43 @@
     <string name="login">Login</string>
     <string name="login_button">loginButton</string>
     <string name="splashscreen">splashscreen</string>
+
+
+    <string-array name="modules">
+
+        <item>module1</item>
+        <item>module2</item>
+        <item>module3</item>
+        <item>module4</item>
+        <item>module5</item>
+
+    </string-array>
 </resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
