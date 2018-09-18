@@ -27,8 +27,6 @@ public class AssignmentFragment extends Fragment {
         List<String> list = new ArrayList<>();
         list.add("Mahmoud");
 
-        Spinner menu = (Spinner) view.findViewById(R.id.modules_spinner);
-
         return view;
 
     }

@@ -20,11 +20,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <include
-                layout="@layout/timetable_top_tab"
-                android:layout_width="0dp"
-                android:layout_height="match_parent" />
-
         </RelativeLayout>
 
         <!-- middle section -->
@@ -35,11 +30,6 @@
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="87dp">
-
-            <include
-                layout="@layout/timetable_center_view"
-                android:layout_width="0dp"
-                android:layout_height="match_parent" />
 
         </RelativeLayout>
 
