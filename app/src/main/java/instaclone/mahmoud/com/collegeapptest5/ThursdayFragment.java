@@ -10,6 +10,8 @@ import android.view.ViewGroup;
 
 public class ThursdayFragment extends Fragment {
 
+    String test;
+
     public static ThursdayFragment newInstance(int position) {
         ThursdayFragment fragment = new ThursdayFragment();
         Bundle args = new Bundle();
@@ -23,6 +25,5 @@ public class ThursdayFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_thursday, container, false);
-
     }
 }
