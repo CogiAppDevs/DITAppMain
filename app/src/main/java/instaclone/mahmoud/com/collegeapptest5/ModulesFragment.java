@@ -67,6 +67,7 @@ public class ModulesFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getActivity(), ModuleDetailsActivity.class);
+                intent.putExtra("module1", "module1");
                 startActivity(intent);
             }
         });
@@ -75,6 +76,7 @@ public class ModulesFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getActivity(), ModuleDetailsActivity.class);
+                intent.putExtra("module2", "module2");
                 startActivity(intent);
             }
         });
@@ -83,6 +85,7 @@ public class ModulesFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getActivity(), ModuleDetailsActivity.class);
+                intent.putExtra("module3", "module3");
                 startActivity(intent);
             }
         });
@@ -91,6 +94,7 @@ public class ModulesFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getActivity(), ModuleDetailsActivity.class);
+                intent.putExtra("module4", "module4");
                 startActivity(intent);
             }
         });
@@ -99,6 +103,7 @@ public class ModulesFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getActivity(), ModuleDetailsActivity.class);
+                intent.putExtra("module5", "module5");
                 startActivity(intent);
             }
         });
@@ -122,6 +127,34 @@ public class ModulesFragment extends Fragment {
                         editor.apply();
                         name = cacheData.getString("module1Name", "");
                         module1Btn.setText(name);
+
+                    }else if(ds.getKey().equals("module2")) {
+
+                        editor.putString("module2Name", dataSnapshot.child(getString(R.string.module2)).child(getString(R.string.ModuleName)).getValue(String.class));
+                        editor.apply();
+                        name = cacheData.getString("module2Name", "");
+                        module2Btn.setText(name);
+
+                    }else if(ds.getKey().equals("module3")) {
+
+                        editor.putString("module3Name", dataSnapshot.child(getString(R.string.module3)).child(getString(R.string.ModuleName)).getValue(String.class));
+                        editor.apply();
+                        name = cacheData.getString("module3Name", "");
+                        module3Btn.setText(name);
+
+                    }else if(ds.getKey().equals("module4")) {
+
+                        editor.putString("module4Name", dataSnapshot.child(getString(R.string.module4)).child(getString(R.string.ModuleName)).getValue(String.class));
+                        editor.apply();
+                        name = cacheData.getString("module4Name", "");
+                        module4Btn.setText(name);
+
+                    }else if(ds.getKey().equals("module5")) {
+
+                        editor.putString("module5Name", dataSnapshot.child(getString(R.string.module5)).child(getString(R.string.ModuleName)).getValue(String.class));
+                        editor.apply();
+                        name = cacheData.getString("module5Name", "");
+                        module5Btn.setText(name);
                     }
                 }
 
