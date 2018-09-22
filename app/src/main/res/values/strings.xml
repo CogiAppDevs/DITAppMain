@@ -2,9 +2,8 @@
     <string name="app_name">CollegeAppTest5</string>
 
     //------------ Module Details Strings ----------//
-    <string name="grades">Grades</string>
-    <string name="room">Room :</string>
-    <string name="professor">Professor</string>
+    <string name="grades">grades</string>
+    <string name="Room">Room: </string>
     <string name="module">Module</string>
 
     //------------ Timetable Strings ----------//
@@ -22,6 +21,8 @@
     <string name="module6">module6</string>
 
     //------ Database Strings ------//
+    <string name="room">room</string>
+    <string name="professor">professor</string>
     <string name="monday">monday</string>
     <string name="tuesday">tuesday</string>
     <string name="wednesday">wednesday</string>
@@ -35,6 +36,7 @@
     <string name="timetable">timetable</string>
 
     //------ SharedPreferences Strings ------//
+    <string name="sharedPrefModulesDetails">ModulesDetailsValues</string>
     <string name="sharedPrefModules">ModulesValues</string>
     <string name="sharedPrefMonday">TimetabeleValuesMonday</string>
     <string name="sharedPrefTuesday">TimetabeleValuesTuesday</string>

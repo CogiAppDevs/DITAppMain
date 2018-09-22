@@ -12,6 +12,8 @@ public class AssignmentListObject {
     public String room = "";
     public String time = "";
     public String icon = "";
+    public String grade = "";
+    public String gradeTitle = "";
     String test = "test";
 
 }
