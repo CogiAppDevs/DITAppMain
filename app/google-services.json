@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "349185963452",
+    "firebase_url": "https://ditapp-7a2a6.firebaseio.com",
+    "project_id": "ditapp-7a2a6",
+    "storage_bucket": "ditapp-7a2a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349185963452:android:c6a21ff65d282317",
+        "android_client_info": {
+          "package_name": "instaclone.mahmoud.com.collegeapptest5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "349185963452-jmq1ns1osvq4n140ktl13ea536l971tn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "instaclone.mahmoud.com.collegeapptest5",
+            "certificate_hash": "3ef2fa95271d234cfedf3cac3e5efbd9ed8b59ac"
+          }
+        },
+        {
+          "client_id": "349185963452-6gevhp6pacghakmm4fjvpfpdub208q5f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "instaclone.mahmoud.com.collegeapptest5",
+            "certificate_hash": "aaaddc015639ecea0f137457a82c9a761337ece9"
+          }
+        },
+        {
+          "client_id": "349185963452-sobuhpmte8grooa77v96i2j4uhfabgir.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_xVCK_MQIsbeXGwl9n7d_MGtfqIL-XKo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "349185963452-sobuhpmte8grooa77v96i2j4uhfabgir.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

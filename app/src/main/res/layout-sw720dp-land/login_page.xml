@@ -86,16 +86,16 @@
         android:id="@+id/button"
         android:layout_width="703dp"
         android:layout_height="92dp"
-        android:layout_marginLeft="344dp"
-        android:layout_marginStart="344dp"
-        android:layout_marginTop="600dp"
+        android:layout_marginStart="340dp"
+        android:layout_marginLeft="340dp"
+        android:layout_marginTop="604dp"
         android:background="@drawable/circle"
         android:contentDescription="@string/login_button"
+        android:text="@string/login"
         android:textColor="#fff"
         android:textSize="50sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:text="@string/login" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </android.support.constraint.ConstraintLayout>

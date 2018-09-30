@@ -41,18 +41,18 @@
     <EditText
         android:layout_width="427dp"
         android:layout_height="73dp"
-        android:layout_marginLeft="364dp"
-        android:layout_marginStart="364dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginStart="372dp"
+        android:layout_marginLeft="372dp"
+        android:layout_marginTop="16dp"
         android:hint="@string/password"
         android:inputType="textWebPassword"
-        android:paddingEnd="10dp"
-        android:paddingLeft="50dp"
-        android:paddingRight="10dp"
         android:paddingStart="50dp"
+        android:paddingLeft="50dp"
+        android:paddingEnd="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@color/white"
         android:textColorHint="#FFF"
         android:textSize="40sp"
-        android:textColor="@color/white"
         android:theme="@style/MyEditTextStyle"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/username" />
@@ -73,9 +73,9 @@
         android:id="@+id/imageView4"
         android:layout_width="63dp"
         android:layout_height="70dp"
-        android:layout_marginLeft="256dp"
         android:layout_marginStart="256dp"
-        android:layout_marginTop="340dp"
+        android:layout_marginLeft="256dp"
+        android:layout_marginTop="332dp"
         android:contentDescription="@string/lock_icon"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -83,18 +83,18 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="580dp"
+        android:layout_width="549dp"
         android:layout_height="55dp"
-        android:layout_marginLeft="220dp"
-        android:layout_marginStart="220dp"
+        android:layout_marginStart="256dp"
+        android:layout_marginLeft="256dp"
         android:layout_marginTop="444dp"
         android:background="@drawable/circle"
         android:contentDescription="@string/login_button"
+        android:text="@string/login"
         android:textColor="#fff"
         android:textSize="38sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-       android:text="@string/login" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </android.support.constraint.ConstraintLayout>
